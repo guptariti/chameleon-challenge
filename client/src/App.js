@@ -17,6 +17,7 @@ class App extends Component {
     };
   }
 
+  //calling the random user api and setting state properties as needed
   callToApi = async() => {
       let link = "https://randomuser.me/api/";
       let result = await fetch(link);
@@ -31,6 +32,7 @@ class App extends Component {
       this.callToBackEnd();
   }
 
+  //call to backend route that encrypts password
   callToBackEnd()  {
     axios.post('/api', this.state.login)
     .then(res => {
@@ -42,7 +44,8 @@ class App extends Component {
   componentWillMount() {
     this.callToApi();
   }
-  
+
+  //render method of component
   render() {
     return (
       <div className="App">

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
+//to represent a summary of a person
 class Summary extends Component {
     constructor(props) {
         super(props);
@@ -9,10 +10,12 @@ class Summary extends Component {
         };
     }
 
+    //function to reload the page
     reload() {
         window.location.reload();
       }
-
+    
+    //component render method
     render() {
         return (
         <div className="mainDiv">
