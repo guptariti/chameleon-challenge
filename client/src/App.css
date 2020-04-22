@@ -1,0 +1,47 @@
+.title {
+    text-align:center;
+    font-family: "Bookman Old Style";
+    color:white;
+}
+
+.mainDiv {
+    position: relative;
+}
+.summary {
+    position: absolute;
+    left: 50%;
+    width: 30%;
+    text-align:center;
+    border: 5px solid white; 
+    padding:10px;
+    margin-left: -15%;
+    font-family: "Bookman Old Style";
+    background-color:lightgoldenrodyellow;
+}
+
+
+body {
+    background-color: rgb(144, 211, 144);
+}
+
+.rfrsh {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ed3330;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.4s ease 0s;
+    font-family: "Bookman Old Style";
+}
+
+.rfrsh:hover {
+    background: #434343;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+}
